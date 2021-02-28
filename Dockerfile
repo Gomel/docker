@@ -1,7 +1,7 @@
 FROM php:7.4-apache
 
 ARG AKAUNTING_DOCKERFILE_VERSION=0.1
-ARG SUPPORTED_LOCALES="en_US.UTF-8"
+ARG SUPPORTED_LOCALES="ru_RU.UTF-8"
 
 RUN apt-get update \
  && apt-get -y upgrade --no-install-recommends \
